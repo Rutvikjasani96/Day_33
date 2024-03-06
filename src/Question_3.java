@@ -4,7 +4,7 @@ public class Question_3 {
         int[] array = {3, 1, 4, 6, 5, 0, 2};
         replaceArray(array);
         for(int i=0;i<array.length;i++){
-            System.out.println(array[i]);
+            System.out.print(" "+array[i]);
         }
     }
     static void replaceArray(int[] array){
